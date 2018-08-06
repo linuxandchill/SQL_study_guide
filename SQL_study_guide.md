@@ -1,6 +1,8 @@
 ## Statements
 
+```
 SELECT * FROM table_name; 
+```
 
 ##TABLES
 
@@ -36,20 +38,40 @@ WHERE id = id_of_row_to_be_edited
 
 --- 
 
-```
 ## ALTER TABLE
+```
 ALTER TABLE table__name ADD COLUMN
 email TEXT; 
 ```
 
 --- 
 
-##DELETE ROWS FROM TABLE
+## DELETE ROWS FROM TABLE
 ```
 DELETE FROM table_name
 WHERE email IS NULL; 
 ```
+--- 
 
+## CONSTRAINTS: DEFAULT VALS AND PRIMARY KEYS
+```
+CREATE TABLE customers(
+id INTEGER PRIMARY KEY,
+name TEXT NOT NULL,
+preferred_status TEXT DEFAULT "No"
+);
 
+```
+---
 
+## COMMON COMMANDS 
+
+```
+    CREATE TABLE creates a new table.
+    INSERT INTO adds a new row to a table.
+    SELECT queries data from a table.
+    UPDATE edits a row in a table.
+    ALTER TABLE changes an existing table.
+    DELETE FROM deletes rows from a table.
+```
 
