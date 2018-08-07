@@ -40,7 +40,7 @@ WHERE id = id_of_row_to_be_edited
 
 ## ALTER TABLE
 ```
-ALTER TABLE table__name ADD COLUMN
+ALTER TABLE table_name ADD COLUMN
 email TEXT; 
 ```
 
